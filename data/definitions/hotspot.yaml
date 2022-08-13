@@ -1,0 +1,46 @@
+id: hotspot
+name: Hotspot
+permissions: []
+icon: add
+parameters:
+  - id: time
+    name: time
+    type: text
+    typeConfig:
+      required: true
+  - id: x
+    name: X Position
+    type: number
+    helpText: ''
+    typeConfig:
+      max: '100'
+      min: '0'
+      decimal: false
+      required: true
+  - id: 'y'
+    name: Y Position
+    type: number
+    helpText: ''
+    typeConfig:
+      max: '100'
+      min: '0'
+      required: true
+  - id: tooltipposition
+    name: tooltipPosition
+    type: select
+    typeConfig:
+      options:
+        - text: top
+          value: top
+        - text: bottom
+          value: bottom
+        - text: left
+          value: left
+        - text: right
+          value: right
+useTeamPermissions: true
+slots: []
+titleParameter: time
+canBeComposition: false
+created: '2022-05-04T19:56:09.408908+00:00'
+updated: '2022-08-01T19:07:05.406161+00:00'

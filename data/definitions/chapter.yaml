@@ -1,0 +1,43 @@
+id: chapter
+name: Chapter
+permissions: []
+icon: bookmark
+parameters:
+  - id: chapterTitle
+    name: Chapter Title
+    type: text
+    typeConfig: null
+  - id: product
+    name: Product
+    type: bigcommerceProduct
+    typeConfig: null
+  - id: startTime
+    name: Start Time
+    type: number
+    typeConfig:
+      required: true
+  - id: endTime
+    name: End Time
+    type: number
+    typeConfig:
+      required: true
+  - id: clickAction
+    name: Click Action
+    type: select
+    typeConfig:
+      options:
+        - text: Go To Product
+          value: goToProduct
+        - text: Seek In Video
+          value: seekInVideo
+useTeamPermissions: true
+slots:
+  - id: hotspots
+    name: Hotspots
+    allowedComponents:
+      - hotspot
+    inheritAllowedComponents: false
+titleParameter: chapterTitle
+canBeComposition: false
+created: '2022-05-04T19:38:40.77422+00:00'
+updated: '2022-08-01T19:34:55.329394+00:00'

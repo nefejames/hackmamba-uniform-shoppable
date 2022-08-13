@@ -1,0 +1,31 @@
+{
+  "name": "cloudinary-uniform-shoppable-video",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "push:components": "uniform presentation component push ./data/definitions",
+    "push:compositions": "uniform presentation composition push ./data/compositions",
+    "pull:components": "uniform presentation component pull ./data/definitions",
+    "pull:compositions": "uniform presentation composition pull ./data/compositions"
+  },
+  "dependencies": {
+    "@uniformdev/canvas": "^17.0.0",
+    "@uniformdev/canvas-bigcommerce": "^17.0.0",
+    "@uniformdev/canvas-cloudinary": "^17.0.0",
+    "@uniformdev/canvas-react": "^17.0.0",
+    "@uniformdev/cli": "^17.0.0",
+    "cloudinary-video-player": "1.9.1",
+    "format-duration": "^2.0.0",
+    "next": "12.2.3",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "eslint": "8.21.0",
+    "eslint-config-next": "12.2.3"
+  }
+}

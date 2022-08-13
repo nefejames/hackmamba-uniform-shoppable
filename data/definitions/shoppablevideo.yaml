@@ -1,0 +1,29 @@
+id: shoppablevideo
+name: ShoppableVideo
+permissions: []
+icon: play-button-o
+parameters:
+  - id: cta
+    name: CTA
+    type: text
+    typeConfig:
+      required: true
+  - id: cloudinary
+    name: Cloudinary
+    type: cloudinary-media-selector
+    helpText: ''
+    typeConfig:
+      ratio: ''
+      widths: ''
+      defaultoptions: ''
+useTeamPermissions: true
+slots:
+  - id: chapters
+    name: Chapters
+    allowedComponents:
+      - chapter
+    inheritAllowedComponents: false
+titleParameter: cta
+canBeComposition: false
+created: '2022-05-04T19:36:47.56859+00:00'
+updated: '2022-07-22T06:42:38.042308+00:00'

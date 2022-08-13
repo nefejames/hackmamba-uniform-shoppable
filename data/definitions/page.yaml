@@ -1,0 +1,18 @@
+id: page
+name: Page
+permissions: []
+icon: screen
+parameters: []
+useTeamPermissions: true
+slots:
+  - id: components
+    name: Components
+    allowedComponents:
+      - hero
+      - shoppablevideo
+      - productDetail
+    inheritAllowedComponents: false
+titleParameter: ''
+canBeComposition: true
+created: '2022-05-04T19:34:41.736721+00:00'
+updated: '2022-07-25T06:36:04.896511+00:00'

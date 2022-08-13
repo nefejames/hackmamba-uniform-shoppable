@@ -1,0 +1,122 @@
+composition:
+  _id: e4aa5954-3f42-4f67-9c94-a0463b011ecd
+  type: page
+  _name: Shopping
+  _slug: /
+  slots:
+    components:
+      - type: shoppablevideo
+        slots:
+          chapters:
+            - type: chapter
+              slots:
+                hotspots:
+                  - type: hotspot
+                    parameters:
+                      x:
+                        type: number
+                        value: '55'
+                      'y':
+                        type: number
+                        value: '30'
+                      time:
+                        type: text
+                        value: '6'
+                      tooltipposition:
+                        type: select
+                        value: bottom
+              parameters:
+                endTime:
+                  type: number
+                  value: '8'
+                product:
+                  type: bigcommerceProduct
+                  value: '129'
+                startTime:
+                  type: number
+                  value: '6'
+                clickAction:
+                  type: select
+                  value: seekInVideo
+                chapterTitle:
+                  type: text
+                  value: Glasses
+            - type: chapter
+              slots:
+                hotspots:
+                  - type: hotspot
+                    parameters:
+                      x:
+                        type: number
+                        value: '45'
+                      'y':
+                        type: number
+                        value: '40'
+                      time:
+                        type: text
+                        value: '9'
+                      tooltipposition:
+                        type: select
+                        value: left
+              parameters:
+                endTime:
+                  type: number
+                  value: '13'
+                product:
+                  type: bigcommerceProduct
+                  value: '130'
+                startTime:
+                  type: number
+                  value: '9'
+                clickAction:
+                  type: select
+                  value: seekInVideo
+                chapterTitle:
+                  type: text
+                  value: Dress
+            - type: chapter
+              parameters:
+                endTime:
+                  type: number
+                  value: '19'
+                product:
+                  type: bigcommerceProduct
+                  value: '131'
+                startTime:
+                  type: number
+                  value: '15'
+                clickAction:
+                  type: select
+                  value: goToProduct
+                chapterTitle:
+                  type: text
+                  value: Bag
+        parameters:
+          cta:
+            type: text
+            value: Shop with Uniform & BigCommerce
+          cloudinary:
+            type: cloudinary-media-selector
+            value:
+              - alt: ''
+                url: >-
+                  https://res.cloudinary.com/dwfcofnrd/video/upload/v1651846063/Shoppable/shoppable_demo.webm
+                ratio: ''
+                width: '1920'
+                format: webm
+                height: '1080'
+                widths: ''
+                caption: ''
+                options: ''
+                version: 1651846063
+                publicId: Shoppable/shoppable_demo
+                createdAt: '2022-05-06T14:07:43Z'
+                previewUrl: >-
+                  https://res.cloudinary.com/dwfcofnrd/video/upload/q_auto:low,f_auto,w_150/Shoppable/shoppable_demo.webm
+                resourceType: video
+                transformation: ''
+                globalImageOptions: q_auto,f_auto
+  parameters: {}
+created: '2022-05-06T15:08:09.195623+00:00'
+modified: '2022-08-01T19:54:33.53553+00:00'
+pattern: false
